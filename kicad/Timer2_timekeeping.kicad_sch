@@ -163,183 +163,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Buzzer"
-			(pin_names
-				(offset 0.0254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "BZ"
-				(at 3.81 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Buzzer"
-				(at 3.81 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at -0.635 2.54 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at -0.635 2.54 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Buzzer, polarized"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "quartz resonator ceramic"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*Buzzer*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Buzzer_0_1"
-				(polyline
-					(pts
-						(xy -1.651 1.905) (xy -1.143 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.397 2.159) (xy -1.397 1.651)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 3.175)
-					(mid 3.1612 0)
-					(end 0 -3.175)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.175) (xy 0 -3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Buzzer_1_1"
-				(pin passive line
-					(at -2.54 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2388,10 +2211,10 @@
 		(uuid "0074d9e2-5106-4b44-86f6-745df93376ad")
 	)
 	(junction
-		(at 204.47 87.63)
+		(at 204.47 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "37dbd106-e2dd-4b68-a758-3b369c90ec1f")
+		(uuid "12a8f9ad-d653-4794-a59f-fd4e01f37c6d")
 	)
 	(junction
 		(at 179.07 113.03)
@@ -2400,10 +2223,10 @@
 		(uuid "3aac49bd-3ac1-43dc-b84c-5fefbf391626")
 	)
 	(junction
-		(at 204.47 72.39)
+		(at 204.47 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3b208352-fe21-4c0c-80f7-42262f24afa8")
+		(uuid "4cc7b426-6bad-402f-86d3-4a3a3d799f51")
 	)
 	(junction
 		(at 204.47 105.41)
@@ -2422,6 +2245,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "757a3a8a-d60d-4fb1-8a84-5f5da548c892")
+	)
+	(junction
+		(at 204.47 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8479dc9e-d9d7-4498-a45f-6cfdf858e018")
 	)
 	(junction
 		(at 133.35 143.51)
@@ -2462,10 +2291,6 @@
 	(no_connect
 		(at 148.59 64.77)
 		(uuid "2eb2591f-ed8e-44c5-8a10-d39603b08d9b")
-	)
-	(no_connect
-		(at 148.59 77.47)
-		(uuid "33ee51c4-82e6-4dcf-b9c5-49e99b5e670c")
 	)
 	(no_connect
 		(at 148.59 62.23)
@@ -2603,16 +2428,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 87.63) (xy 204.47 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "149c594b-053d-4063-a40c-fc3a8525c140")
-	)
-	(wire
-		(pts
 			(xy 153.67 49.53) (xy 148.59 49.53)
 		)
 		(stroke
@@ -2623,7 +2438,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 72.39) (xy 204.47 72.39)
+			(xy 193.04 72.39) (xy 204.47 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2660,6 +2475,16 @@
 			(type default)
 		)
 		(uuid "1c71364d-58b8-4a54-af3f-be7d17772037")
+	)
+	(wire
+		(pts
+			(xy 204.47 72.39) (xy 204.47 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ed3d078-77ed-46e1-9c7d-c0968e2012a4")
 	)
 	(wire
 		(pts
@@ -2713,6 +2538,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 74.93) (xy 173.99 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d15ccc0-5efc-4b44-8c4a-3acaff884c82")
+	)
+	(wire
+		(pts
 			(xy 97.79 49.53) (xy 97.79 55.88)
 		)
 		(stroke
@@ -2723,7 +2558,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 72.39) (xy 167.64 72.39)
+			(xy 148.59 72.39) (xy 173.99 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2763,13 +2598,33 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 72.39) (xy 179.07 72.39)
+			(xy 181.61 72.39) (xy 185.42 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4b857255-1bc2-4d85-a854-e2bea0785b8c")
+	)
+	(wire
+		(pts
+			(xy 181.61 81.28) (xy 185.42 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a172a25-2415-461d-95ab-1601d48ac086")
+	)
+	(wire
+		(pts
+			(xy 181.61 91.44) (xy 185.42 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c8292e2-9b2b-4fed-b89c-c8236e103660")
 	)
 	(wire
 		(pts
@@ -2783,6 +2638,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 91.44) (xy 204.47 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d53ca75-9e47-4d30-8c18-8cb39fb0c314")
+	)
+	(wire
+		(pts
 			(xy 166.37 105.41) (xy 166.37 110.49)
 		)
 		(stroke
@@ -2790,6 +2655,16 @@
 			(type default)
 		)
 		(uuid "60ccdeb8-40b0-48de-9b37-ecf01d9fe7f9")
+	)
+	(wire
+		(pts
+			(xy 193.04 81.28) (xy 204.47 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60eaf449-b7cf-4eac-b021-901ccbe0b7cf")
 	)
 	(wire
 		(pts
@@ -2803,6 +2678,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 74.93) (xy 173.99 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61e2e920-58a2-43c3-84b7-e4359bfce747")
+	)
+	(wire
+		(pts
 			(xy 154.94 46.99) (xy 154.94 48.26)
 		)
 		(stroke
@@ -2813,13 +2698,23 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 74.93) (xy 160.02 74.93)
+			(xy 204.47 81.28) (xy 204.47 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6ed92c77-371c-424e-b160-6d10cf47ea6e")
+		(uuid "6b783d79-3aa7-4f43-bd8a-1b616ed1bf3c")
+	)
+	(wire
+		(pts
+			(xy 172.72 77.47) (xy 172.72 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d416317-062c-4365-9b31-0bec38bf7ec4")
 	)
 	(wire
 		(pts
@@ -2830,16 +2725,6 @@
 			(type default)
 		)
 		(uuid "84fee79a-bb36-4095-85ac-482dd7eb4a4d")
-	)
-	(wire
-		(pts
-			(xy 160.02 83.82) (xy 160.02 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86422805-24ba-4981-af2a-01ce654e6399")
 	)
 	(wire
 		(pts
@@ -2880,16 +2765,6 @@
 			(type default)
 		)
 		(uuid "957152fd-2373-4f53-8229-80754b005a37")
-	)
-	(wire
-		(pts
-			(xy 204.47 72.39) (xy 204.47 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97fb9a55-1136-457d-b566-51ba0d22464c")
 	)
 	(wire
 		(pts
@@ -2963,13 +2838,13 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 74.93) (xy 160.02 78.74)
+			(xy 204.47 91.44) (xy 204.47 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bfd3772b-aa56-4e40-8690-f41b100c557a")
+		(uuid "c7bec274-b093-4bad-9d36-09021bbf2610")
 	)
 	(wire
 		(pts
@@ -3000,6 +2875,16 @@
 			(type default)
 		)
 		(uuid "d0c131e4-e294-4d9e-a7ca-d4bff4a0d4b7")
+	)
+	(wire
+		(pts
+			(xy 148.59 77.47) (xy 172.72 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5dd73dd-8389-4fdc-9415-bc06ff409658")
 	)
 	(wire
 		(pts
@@ -3083,13 +2968,13 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 87.63) (xy 204.47 87.63)
+			(xy 172.72 91.44) (xy 173.99 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "efdb707b-2b0c-4a4c-9d4e-0f6ff0d8c6fd")
+		(uuid "f7993e3d-a1ae-462d-a4f2-1c018144bcda")
 	)
 	(wire
 		(pts
@@ -3100,16 +2985,6 @@
 			(type default)
 		)
 		(uuid "fd5fa7d0-9813-4d67-9144-08345e01b648")
-	)
-	(label "ALARM_BUZZER"
-		(at 148.59 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1393b572-229b-40cc-9edd-effcebb2697c")
 	)
 	(label "TOSC1_32768HZ"
 		(at 148.59 110.49 0)
@@ -3150,6 +3025,26 @@
 			(justify left bottom)
 		)
 		(uuid "9e5ddef7-9d29-48f1-b5c2-ca34199a9f7c")
+	)
+	(label "CPU_ACTIVE_LED"
+		(at 148.59 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c60baf6d-7809-4703-94cd-cb2cc458a122")
+	)
+	(label "TIMER2_HEARTBEAT_LED"
+		(at 148.59 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e1c17f86-efe2-4a73-bfb2-0c22091b0cb2")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -3791,7 +3686,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 182.88 72.39 0)
+		(at 189.23 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3802,7 +3697,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b651f81-37c9-42bc-ad6a-6d6cd81857e2")
 		(property "Reference" "D1"
-			(at 181.2925 66.04 0)
+			(at 187.6425 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3812,7 +3707,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 181.2925 68.58 0)
+			(at 187.6425 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3822,7 +3717,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 182.88 72.39 0)
+			(at 189.23 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3833,7 +3728,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 72.39 0)
+			(at 189.23 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3844,7 +3739,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 182.88 72.39 0)
+			(at 189.23 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3855,7 +3750,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 182.88 72.39 0)
+			(at 189.23 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3875,6 +3770,97 @@
 			(project "Timer2_timekeeping"
 				(path "/7fb97d57-4ac8-4591-a2e6-f98ed1c8a37d"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 189.23 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ea0928a-627c-4da4-9f72-46c7279e1878")
+		(property "Reference" "D3"
+			(at 187.6425 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 187.6425 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 189.23 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 189.23 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 189.23 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "eb82f251-9a45-4a8e-bf93-abe255d27ca6")
+		)
+		(pin "1"
+			(uuid "7c03e042-3186-4c59-b085-a38c2987c0ec")
+		)
+		(instances
+			(project "Timer2_timekeeping"
+				(path "/7fb97d57-4ac8-4591-a2e6-f98ed1c8a37d"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4403,7 +4389,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 171.45 72.39 90)
+		(at 177.8 72.39 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4414,7 +4400,7 @@
 		(fields_autoplaced yes)
 		(uuid "88f9fd5a-f138-42d1-a01b-df8655805df7")
 		(property "Reference" "R1"
-			(at 171.45 66.04 90)
+			(at 177.8 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4424,7 +4410,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 171.45 68.58 90)
+			(at 177.8 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4434,7 +4420,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 171.45 74.168 90)
+			(at 177.8 74.168 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4445,7 +4431,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 72.39 0)
+			(at 177.8 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4456,7 +4442,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 171.45 72.39 0)
+			(at 177.8 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4720,88 +4706,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Buzzer")
-		(at 162.56 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b07cd506-8ec7-4e20-88e1-923b59336061")
-		(property "Reference" "BZ1"
-			(at 166.37 80.0099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Buzzer"
-			(at 166.37 82.5499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Buzzer_Beeper:Buzzer_12x9.5RM7.6"
-			(at 161.925 78.74 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.925 78.74 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Buzzer, polarized"
-			(at 162.56 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "469755eb-5505-4ae9-bac7-e78e0ad17100")
-		)
-		(pin "1"
-			(uuid "50e50b80-e34c-4a9e-b9e9-d018a3966398")
-		)
-		(instances
-			(project "Timer2_timekeeping"
-				(path "/7fb97d57-4ac8-4591-a2e6-f98ed1c8a37d"
-					(reference "BZ1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 156.21 135.89 0)
 		(unit 1)
@@ -5040,6 +4944,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 189.23 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e77726ad-789f-43b6-9349-35808064b80c")
+		(property "Reference" "D2"
+			(at 187.6425 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 187.6425 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 189.23 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 189.23 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 189.23 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d1338dbf-db07-4446-a092-bde084761d93")
+		)
+		(pin "1"
+			(uuid "5ed8d545-1005-4f32-9a85-8cb216fddb3c")
+		)
+		(instances
+			(project "Timer2_timekeeping"
+				(path "/7fb97d57-4ac8-4591-a2e6-f98ed1c8a37d"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 96.52 39.37 0)
 		(unit 1)
@@ -5196,6 +5191,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 177.8 81.28 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8b5da09-f0a4-4651-b67c-c06f4aece6be")
+		(property "Reference" "R3"
+			(at 177.8 74.93 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 177.8 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 177.8 83.058 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 177.8 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d25b122d-5264-4774-9e10-ce9dc9cd5e36")
+		)
+		(pin "1"
+			(uuid "cd8d74b9-204e-40b1-b1d7-34ae333be31a")
+		)
+		(instances
+			(project "Timer2_timekeeping"
+				(path "/7fb97d57-4ac8-4591-a2e6-f98ed1c8a37d"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 204.47 119.38 0)
 		(unit 1)
@@ -5268,6 +5343,86 @@
 			(project "Timer2_timekeeping"
 				(path "/7fb97d57-4ac8-4591-a2e6-f98ed1c8a37d"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 177.8 91.44 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fabd7abb-d424-4c75-af6f-6fac9b100346")
+		(property "Reference" "R4"
+			(at 177.8 85.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 177.8 87.63 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 177.8 93.218 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 177.8 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ba4a82d0-44f6-41f3-bf4a-bbfa1fac3c60")
+		)
+		(pin "1"
+			(uuid "64ca7b3c-7661-4b7d-b6de-0f5e6eb0890d")
+		)
+		(instances
+			(project "Timer2_timekeeping"
+				(path "/7fb97d57-4ac8-4591-a2e6-f98ed1c8a37d"
+					(reference "R4")
 					(unit 1)
 				)
 			)
