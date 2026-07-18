@@ -1,6 +1,6 @@
 ATmega32 Asynchronous Timer2 Timekeeping
 
-CT 321 — Project 13 
+CT 321 — Group 13 
 
 Low-power real-time clock using ATmega32 Timer2 in asynchronous mode, driven by a 32.768 kHz watch crystal on TOSC1/TOSC2. The CPU sleeps between timer events; Timer2 keeps running and wakes the CPU exactly once per second.
 
