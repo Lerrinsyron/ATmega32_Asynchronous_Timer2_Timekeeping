@@ -29,11 +29,11 @@ SimulIDE
 
 Load hex/firmware_simulide.hex into the ATmega32. Set Freq to `8000000` and Serial Monitor baud to `9600`.
 
-Known limitation: SimulIDE cannot model the external 32.768 kHz crystal on TOSC1/TOSC2. The SIMULIDE_MODE build uses an internal-clock CTC fallback to produce the same 1-second tick. The KiCad design remains correct for real hardware.
+> ⚠️ Known limitation: SimulIDE cannot model the external 32.768 kHz crystal on TOSC1/TOSC2. The SIMULIDE_MODE   build uses an internal-clock CTC fallback to produce the same 1-second tick. The KiCad design remains correct for real hardware.
 
 
 Common Issues
 
-Garbage output on serial monitor — baud rate mismatch. Confirm SimulIDE Serial Monitor is set to 9600, not 4800.
+Garbage output on serial monitor baud rate mismatch. Confirm SimulIDE Serial Monitor is set to 9600, not 4800.
 
-"SLEEP instruction not fully implemented" warning — expected. SimulIDE does not model power-save sleep. Ignore it; everything else works correctly.
+"SLEEP instruction not fully implemented" warning expected. SimulIDE does not model power-save sleep. Ignore it; everything else works correctly.
